@@ -16,7 +16,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.8",
-        "inertiajs/inertia-laravel": "^1.0",
+        "inertiajs/inertia-laravel": "^2.x-dev",
         "orchestra/testbench": "^9.0",
         "phpunit/phpunit": "^11.0"
     },
@@ -39,7 +39,7 @@
         "sort-packages": true
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
+    "prefer-stable": false,
     "extra": {
         "laravel": {
             "providers": [
